@@ -12,7 +12,11 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700" rel="stylesheet">
 </head>
 <body>
+<style>
 
+
+
+</style>
 
 <!-- HEADER =============================-->
 <header class="item header margin-top-0">
@@ -24,15 +28,16 @@
 			<i class="fa fa-bars"></i>
 			<span class="sr-only">Toggle navigation</span>
 			</button>
-			<a href="index.jsp" class="navbar-brand brand"> SCORILO </a>
+			<%--<a href="index.jsp" class="navbar-brand brand"> SCORILO </a>--%>
+			<img src="/images/Czero.png" style="width: 135px; height: 60px; margin-top: 5px" alt="로고">
 		</div>
 		<div id="navbar-collapse-02" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li class="propClone"><a href="index.jsp">Home</a></li>
-				<li class="propClone"><a href="shop.jsp">Shop</a></li>
-				<li class="propClone"><a href="product.jsp">Product</a></li>
-				<li class="propClone"><a href="checkout.jsp">Checkout</a></li>
-				<li class="propClone"><a href="contact.jsp">Contact</a></li>
+				<li class="propClone"><a href="shop.jsp">Market</a></li>
+				<li class="propClone"><a href="product.jsp">Checklist</a></li>
+				<li class="propClone"><a href="checkout.jsp">Api</a></li>
+				<li class="propClone"><a href="contact.jsp">Mypage</a></li>
 			</ul>
 		</div>
 	</div>
@@ -40,12 +45,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<div class="text-homeimage">
-					<div class="maintext-image" data-scrollreveal="enter top over 1.5s after 0.1s">
-						 Increase Digital Sales
+				<div>
+					<div class="text-homeimage maintext-image titlefont" data-scrollreveal="enter top over 1.5s after 0.1s" >
+						탄소중립이란?
 					</div>
-					<div class="subtext-image" data-scrollreveal="enter bottom over 1.7s after 0.3s">
-						 Boost revenue with Scorilo
+					<div class="text-homeimage2 subtext-image titlefont2" data-scrollreveal="enter bottom over 1.7s after 0.3s">
+						 <strong>이산화탄소를 배출한 만큼 이산화탄소를 흡수하는 대책을 세워 이산화탄소의 실질적인 배출량을 ‘0’으로 만든다는 개념이다.</strong>
 					</div>
 				</div>
 			</div>
@@ -61,8 +66,8 @@
 		<div class="row text-center">
 			<div class="col-md-4">
 				<div class="col editContent">
-					<span class="numberstep"><i class="fa fa-shopping-cart"></i></span>
-					<h3 class="numbertext">Choose our Products</h3>
+					<span class="numberstep"><i class="fa "><img src="/images/market.png" style="width: 55%; height: 55%;"></i></span>
+					<h3 class="numbertext">플리마켓</h3>
 					<p>
 						 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
 					</p>
@@ -72,8 +77,8 @@
 			<!-- /.col-md-4 col -->
 			<div class="col-md-4 editContent">
 				<div class="col">
-					<span class="numberstep"><i class="fa fa-gift"></i></span>
-					<h3 class="numbertext">Pay with PayPal or Card</h3>
+					<span class="numberstep"><i class="fa"><img src="/images/list.png" style="width: 60%; height: 60%; margin-bottom: 5%"></i></span>
+					<h3 class="numbertext">체크리스트</h3>
 					<p>
 						 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
 					</p>
@@ -83,8 +88,8 @@
 			<!-- /.col-md-4 col -->
 			<div class="col-md-4 editContent">
 				<div class="col">
-					<span class="numberstep"><i class="fa fa-download"></i></span>
-					<h3 class="numbertext">Get Instand Download</h3>
+					<span class="numberstep"><i class="fa "><img src="/images/bicycle.png" style="width: 65%; height: 65%; margin-bottom: 8%; margin-left: 3%"></i></span>
+					<h3 class="numbertext">공공 자전거</h3>
 					<p>
 						 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
 					</p>
@@ -95,7 +100,7 @@
 </div>
 	
 	
-	<!-- LATEST ITEMS =============================-->
+	<%--<!-- LATEST ITEMS =============================-->
 <section class="item content">
 	<div class="container">
 		<div class="underlined-title">
@@ -308,7 +313,7 @@
 			</p>
 		</div>
 	</div>
-</div>
+</div>--%>
 
 <!-- SCRIPTS =============================-->
 <script src="js/jquery-.js"></script>

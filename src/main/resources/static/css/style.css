@@ -2,6 +2,28 @@
 Scorilo 1.0.1 - HTML Template by WowThemes.net
 Visit: https://www.wowthemes.net
 ================================================== */
+.titlefont {
+	font-family: 'Cafe24Ssurround';
+}
+
+.titlefont2 {
+	font-family: 'EarlyFontDiary';
+}
+
+@font-face {
+	font-family: 'EarlyFontDiary';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cafe24Ssurround';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
 	font-family:Roboto;
 	font-weight:300;
@@ -59,7 +81,7 @@ header .navbar-white {
 	box-shadow:0px 3px 2px 0px rgba(50,50,50,0.1);
 }
 .item.header {
-	background-image:url(../images/homeimg.jpg);
+	background-image:url(../images/homeimg2.jpg);
 	background-repeat:no-repeat;
 	background-position:0% top;
 	background-size:cover;
@@ -75,13 +97,22 @@ header .navbar-white {
 	color:#fff;
 	z-index:2;
 	position:relative;
-	font-size:75px;
+	font-size:5em;
 	line-height:90px;
 	text-transform:uppercase;
 	padding-top:190px;
+	font-weight:700;
+}
+.text-homeimage2 {
+	text-align:center;
+	color:#fff;
+	z-index:2;
+	position:relative;
+	font-size:3em;
+	line-height:90px;
+	text-transform:uppercase;
 	padding-bottom:190px;
 	font-weight:700;
-	font-family:Dosis;
 }
 .text-pageheader {
 	 text-align:center;
