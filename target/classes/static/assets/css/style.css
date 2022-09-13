@@ -77,8 +77,13 @@ ul.navbar-nav {
 .navbar-inverse ul.navbar-nav li .li-social a:focus { border: 0; color: #f35b3f; }
 
 .navbar-brand {
-	width: 162px;
-	background: url(../img/logo.png) left center no-repeat;
+	width: 135px;
+	height: 60px;
+	margin-top: 5px;
+	background-size: 135px 60px;
+	background-image: url(../img/Czero.png);
+	background-position:  left center;
+	background-repeat: no-repeat;
 	text-indent: -99999px;
 }
 
