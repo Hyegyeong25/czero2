@@ -101,18 +101,21 @@ header .navbar-white {
 	line-height:90px;
 	text-transform:uppercase;
 	padding-top:190px;
+	padding-bottom:40px;
 	font-weight:700;
+	text-shadow:4px 4px 4px #000;
 }
 .text-homeimage2 {
 	text-align:center;
-	color:#fff;
+	color:#CFF09E;
 	z-index:2;
 	position:relative;
 	font-size:3em;
 	line-height:90px;
 	text-transform:uppercase;
-	padding-bottom:190px;
+	padding-bottom:130px;
 	font-weight:700;
+	text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
 }
 .text-pageheader {
 	 text-align:center;

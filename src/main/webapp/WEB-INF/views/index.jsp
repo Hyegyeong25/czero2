@@ -49,8 +49,8 @@
 					<div class="text-homeimage maintext-image titlefont" data-scrollreveal="enter top over 1.5s after 0.1s" >
 						탄소중립이란?
 					</div>
-					<div class="text-homeimage2 subtext-image titlefont2" data-scrollreveal="enter bottom over 1.7s after 0.3s">
-						 <strong>이산화탄소를 배출한 만큼 이산화탄소를 흡수하는 대책을 세워 이산화탄소의 실질적인 배출량을 ‘0’으로 만든다는 개념이다.</strong>
+					<div class="text-homeimage2 subtext-image titlefont2" data-scrollreveal="enter bottom over 1.7s after 0.3s" >
+						 <strong>이산화탄소 배출량만큼 흡수량도 늘려 실질적인 <br>이산화탄소 배출량을 ‘0(zero)’으로 만든다는 개념</strong>
 					</div>
 				</div>
 			</div>
@@ -69,7 +69,7 @@
 					<span class="numberstep"><i class="fa "><img src="/images/market.png" style="width: 55%; height: 55%;"></i></span>
 					<h3 class="numbertext">플리마켓</h3>
 					<p>
-						 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+						 <strong>여러가지 물품을 주고 사고파는 플리마켓을 통해 <br>환경을 지키고 소중한 추억도 쌓아보세요</strong>
 					</p>
 				</div>
 				<!-- /.col-md-4 -->
@@ -80,7 +80,7 @@
 					<span class="numberstep"><i class="fa"><img src="/images/list.png" style="width: 60%; height: 60%; margin-bottom: 5%"></i></span>
 					<h3 class="numbertext">체크리스트</h3>
 					<p>
-						 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+						 <strong>매일매일 지키는 탄소중립 체크리스트로 <br>의미있는 하루를 보내세요</strong>
 					</p>
 				</div>
 				<!-- /.col -->
@@ -91,7 +91,7 @@
 					<span class="numberstep"><i class="fa "><img src="/images/bicycle.png" style="width: 65%; height: 65%; margin-bottom: 8%; margin-left: 3%"></i></span>
 					<h3 class="numbertext">공공 자전거</h3>
 					<p>
-						 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+						 <strong>도시 곳곳의 공공 자전거를 이용해 <br>탄소중립을 실천해보세요</strong>
 					</p>
 				</div>
 			</div>
